@@ -1,0 +1,74 @@
+
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #333;
+  color: #fff;
+  font-family: Arial, sans-serif;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.status {
+  margin-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+
+.board-row {
+  display: flex;
+}
+
+
+.square {
+  width: 100px;
+  height: 100px;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  outline: none;
+  margin: 5px;
+  background-color: #bbb;
+  border: 2px solid #888;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s;
+}
+
+
+.square:hover {
+  background-color: #aaa;
+}
+.replay-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #90a3b7;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.replay-button:hover {
+  background-color: #515254;
+}
